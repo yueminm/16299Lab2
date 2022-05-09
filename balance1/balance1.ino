@@ -52,11 +52,11 @@ MPU6050 accelgyro;
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
-int ax0 = 90;
-int ay0 = -400;
+int ax0 = 60;
+int ay0 = 100;
 // adjustment of az is not useful.
-int gx0 = -430;
-int gy0 = 555;
+int gx0 = 556;
+int gy0 = -26;
 int gz0 = 0;
 
 int last_body_angle = 0;
